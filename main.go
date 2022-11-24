@@ -1,14 +1,14 @@
 package main
 
 import (
-	"awesomeProject1/db"
-	"awesomeProject1/domains"
-	"awesomeProject1/ws"
 	"encoding/json"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 	"github.com/gorilla/websocket"
+	"goEasyChat/db"
+	"goEasyChat/domains"
+	"goEasyChat/ws"
 	"net/http"
 	"time"
 )

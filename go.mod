@@ -1,4 +1,4 @@
-module awesomeProject1
+module goEasyChat
 
 go 1.19
 
