@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "./domains";
+
+package domains;
+
+service Greeter{
+  rpc sayHello(HelloRequest) returns (HelloResponse){}
+}
+
+message HelloRequest{
+  string name = 1;
+}
+
+message HelloResponse{
+  string replay = 1;
+}
+

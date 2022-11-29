@@ -80,7 +80,7 @@ func main() {
 	ws.ChanelMapInit()
 	r := gin.Default()
 	r.GET("/test", test)
-	err := r.Run(":3333")
+	err := r.Run(":15555")
 	if err != nil {
 		fmt.Println(err.Error())
 		panic(err)

@@ -5,6 +5,7 @@ components
 out-test
 .github
 .idea
+.exe
 
 
 deploy/open_im_demo
